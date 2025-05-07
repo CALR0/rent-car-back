@@ -73,7 +73,7 @@ gradle clean build
 java -jar build/libs/rentcar-1.0.0.jar --spring.profiles.active=prod
 ```
 
-## Equipo de Desarrollo
+## Equipo de desarrollo
 
 <table>
   <tr>
