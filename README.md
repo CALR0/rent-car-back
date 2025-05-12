@@ -1,4 +1,4 @@
-# 🚗 Rentcar - Sistema de Gestión de Alquiler de Vehículos
+# 🚗 Rentcar - Sistema de gestión de alquiler de vehículos
 
 ![Versión](https://img.shields.io/badge/versión-1.0.0-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.0-brightgreen)
@@ -6,7 +6,7 @@
 
 API Backend para el sistema Rentcar, una plataforma integral para gestionar el alquiler de vehículos de manera eficiente y segura. Desarrollado con Spring Boot y construido con Gradle.
 
-## Tecnologías Utilizadas
+## Tecnologías utilizadas
 
 - **Java**: JDK 17 o superior
 - **Spring Boot**: Framework para desarrollo de aplicaciones Java
@@ -16,10 +16,9 @@ API Backend para el sistema Rentcar, una plataforma integral para gestionar el a
 - **IntelliJ IDEA**: IDE recomendado
 - **Base de Datos**: PostgreSQL (Producción) / H2 (Desarrollo)
 - **Lombok**: Reducción de código boilerplate
-- **Swagger/OpenAPI**: Documentación de API
 - **JUnit y Mockito**: Testing
 
-## Requisitos Previos
+## Requisitos previos
 
 Para ejecutar este proyecto, necesitarás:
 
@@ -28,29 +27,29 @@ Para ejecutar este proyecto, necesitarás:
 - IDE: IntelliJ IDEA (recomendado)
 - PostgreSQL (para entorno de producción)
 
-## Configuración e Instalación
+## Configuración e instalación
 
-### Clonar el Repositorio
+### Clonar el repositorio
 
 ```bash
 git clone https://github.com/CALR0/rent-car-backend.git
 cd rentcar-backend
 ```
 
-### Configuración del Entorno
+### Configuración del entorno
 
-1. **Configuración de la Base de Datos**:
+1. **Configuración de la base de datos**:
    - Edita `src/main/resources/application-dev.properties` para desarrollo
    - Edita `src/main/resources/application-prod.properties` para producción
 
-2. **Variables de Entorno (opcional)**:
+2. **Variables de entorno (opcional)**:
    ```
    SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/rentcar
    SPRING_DATASOURCE_USERNAME=tu_usuario
    SPRING_DATASOURCE_PASSWORD=tu_contraseña
    ```
 
-### Compilación del Proyecto
+### Compilación del proyecto
 
 ```bash
 # Usando Gradle Wrapper
@@ -60,7 +59,7 @@ cd rentcar-backend
 gradle clean build
 ```
 
-### Ejecución del Proyecto
+### Ejecución del proyecto
 
 ```bash
 # Usando Gradle Wrapper para entorno de desarrollo
