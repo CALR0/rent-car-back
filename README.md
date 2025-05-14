@@ -16,7 +16,7 @@ API Backend para el sistema Rentcar, una plataforma integral para gestionar el a
 - **IntelliJ IDEA**: IDE recomendado
 - **Base de Datos**: PostgreSQL (Producción) / H2 (Desarrollo)
 - **Lombok**: Reducción de código boilerplate
-- **JUnit y Mockito**: Testing
+- **JUnit y Mockito**: Para el testing
 
 ## Requisitos previos
 
